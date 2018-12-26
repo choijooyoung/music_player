@@ -1,0 +1,49 @@
+img{
+  height:100px;
+  width:auto;
+  display:inline-flex;
+}
+span{
+  font-family:'NotoSerifKR';
+  display:inline-flex;
+  margin:1px;
+}
+*{
+  margin:0px;
+}
+#in {
+  border:1px solid #7874f2;/*6b76ff*/
+  height:40px;
+  width:220px;
+  font-family: 'NIXGONM-Vb';
+  text-align:center;
+  font-size:1em;
+  color: #7874f2;
+  font-weight:bold;
+}
+#btn {
+  height:40px;
+  width:220px;
+  background-color:#7874f2;
+  border:1px solid #7874f2;
+   text-align: center;
+  color:white;
+  font-size:1.7em;
+  font-family: 'Binggrae-Bold';
+}
+#file{
+  cursor:pointer;
+  display:flex;
+}
+
+#input{
+  display:none;
+}
+
+@font-face { 
+  font-family: 'Binggrae-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff'); font-weight: normal; font-style: normal;
+}
+@font-face{ 
+font-family: 'NIXGONM-Vb'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'NotoSerifKR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff'); font-weight: normal; font-style: normal; }
