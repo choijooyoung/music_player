@@ -9,7 +9,7 @@ function  a(content){
       const ly = document.getElementById("lyrics");
       const ar = document.getElementById("artist");
       const al = document.getElementById("album");
-      ly.innerHTML=tag.tags.lyrics.lyrics.replace(/\n/gi,"<br>");
+      ///ly.innerHTML=tag.tags.lyrics.lyrics.replace(/\n/gi,"<br>");
       ar.innerText=tag.tags.artist;
       al.innerText=tag.tags.album;
       
